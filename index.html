@@ -6,11 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 1 HTML</title>
+    <!--Posso estilizar por classes dentro da própria página-->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <nav>
-        <ul>
+        <ul class="menu">
+            <a href="index.html" target="_blank">
+                <li>Home</li>
+            </a>
+
+            <a href="contatos.html" target="_blank">
+                <li>Contato</li>
+            </a>
+
+            <a href="videos.html" target="_blank">
+                <li>Videos</li>
+            </a>
+        </ul>
+    </nav>
+    <nav class="menu2">
+        <ul id="menu2test">
             <a href="index.html" target="_blank">
                 <li>Home</li>
             </a>
@@ -25,7 +42,8 @@
         </ul>
     </nav>
 
-    <h1> Olá Mundo h1 </h1>
+    <!--Podemos colocar o CSS in line ou seja dentro da propria linha-->
+    <h1 style="color: rgb(134, 202, 202);"> Olá Mundo h1 </h1>
     <h2> Olá Mundo h2 </h2>
     <h3> Olá Mundo h3 </h3>
     <h4> Olá Mundo h4 </h4>

@@ -1,0 +1,33 @@
+/* é utilizado para chamar uma classe
+    A classe é usada mais para estilizar grupos e para serem utilizadas posteriormente*/
+
+/* com o asterisco iremos estilizar o html todo.*/
+*{
+    margin-top: 0%;
+}
+
+body {
+    margin-top: 0;
+}
+.menu {
+    display: flex;
+    background-color: rgb(175, 124, 124);
+    padding-left: 50px;
+    text-decoration: none;
+    
+}
+li{
+    color: azure;
+}
+
+/* # é utilizado para chamar um ID
+    O Id é usado para identificar configuração que vai servir apenas para um lugar*/
+#menu2test{
+    background-color: bisque;
+    margin-top: 0;
+    
+}
+
+ul {
+    list-style-type: none;
+}
