@@ -5,70 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 1 HTML</title>
-    <!--Posso estilizar por classes dentro da própria página-->
+    <title>Home</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <nav>
-        <ul class="menu">
-            <a href="index.html" target="_blank">
-                <li>Home</li>
-            </a>
+    <!--------------------------------- MENU --------------------------------->
 
-            <a href="contatos.html" target="_blank">
-                <li>Contato</li>
-            </a>
 
-            <a href="videos.html" target="_blank">
-                <li>Videos</li>
-            </a>
-        </ul>
-    </nav>
-    <nav class="menu2">
-        <ul id="menu2test">
-            <a href="index.html" target="_blank">
-                <li>Home</li>
-            </a>
-
-            <a href="contatos.html" target="_blank">
-                <li>Contato</li>
-            </a>
-
-            <a href="videos.html" target="_blank">
-                <li>Videos</li>
-            </a>
+    <nav id="menu-horizontal">
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Contatos</a>
+            </li>
+            <li>
+                <a href="">Videos</a>
+            </li>
         </ul>
     </nav>
 
-    <!--Podemos colocar o CSS in line ou seja dentro da propria linha-->
-    <h1 style="color: rgb(134, 202, 202);"> Olá Mundo h1 </h1>
-    <h2> Olá Mundo h2 </h2>
-    <h3> Olá Mundo h3 </h3>
-    <h4> Olá Mundo h4 </h4>
-    <h5> Olá Mundo h5 </h5>
-    <h6> Olá Mundo h6 </h6>
+    <!--------------------------------- Imagem --------------------------------->
+    <nav>
+        <div class="container">
+            <ul>
+                <img src="https://i.imgur.com/Qj7Vz7y.jpg" alt="">
+            </ul>
+        </div>
+    </nav>
+
 
     <nav>
-        <h3>Teste de paragrafo</h3>
-        <p>
-            Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis.Casamentiss
-            faiz malandris se pirulitá.Sapien in monti palavris qui num significa nadis i pareci latim.Todo mundo vê os
-            porris que eu tomo, mas ninguém vê os tombis que eu levo!
-        </p>
-    </nav>
-    <h1>Café é bom demais!!</h1>
-    <img src="https://i.imgur.com/4aj0gf9.jpg" alt="Uma xícara de café" width="500px">
+        <div class="container titulos">
+            <h1>titulo</h1>
+        </div>
 
+        <div>
+            <p class="container texto">
+                Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais
+                interessantis.Casamentiss
+                faiz malandris se pirulitá.Sapien in monti palavris qui num significa nadis i pareci latim.Todo mundo vê
+                os Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi a nostrum quibusdam officia rerum
+                ipsam, ducimus perspiciatis sit excepturi quidem odio aspernatur fuga ratione praesentium? Atque,
+                mollitia tempora. Aut, qui?
+                porris que eu tomo, mas ninguém vê os tombis que eu levo!
+            </p>
+            <p class="container texto">
+                Mussum Ipsum, cacilds vidis litro abertis. Suco de cevadiss deixa as pessoas mais
+                interessantis.Casamentiss
+                faiz malandris se pirulitá.Sapien in monti palavris qui num significa nadis i pareci latim.Todo mundo vê
+                os Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi a nostrum quibusdam officia rerum
+                ipsam, ducimus perspiciatis sit excepturi quidem odio aspernatur fuga ratione praesentium? Atque,
+                mollitia Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi expedita laborum ipsam veniam
+                excepturi dignissimos ullam est dolor neque molestias molestiae, voluptates odio consequatur quaerat
+                voluptatem? Porro, esse accusantium. Voluptatibus!Lorem empora. Aut, qui?
+                porris que eu tomo, mas ninguém vê os tombis que eu levo!
+            </p>
+        </div>
+
+
+    </nav>
 </body>
 
 <footer>
-    <nav>
-        <h4>===========================================================</h4>
-        <h2>||Produzido por Vinicius Barbosa</h2>
-        <h4>||todos os direitos reservados</h4>
-    </nav>
+    <div class="container footer">
+
+        <div id="footer-id">
+            <h2>Produzido por Vinicius Barbosa</h2>
+            <h4>todos os direitos reservados</h4>
+        </div>
+
+    </div>
 </footer>
 
 </html>
