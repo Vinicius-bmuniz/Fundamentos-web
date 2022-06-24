@@ -1,0 +1,171 @@
+* div {
+    background-color: rgb(156, 113, 95);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* ========================= FLEX ROW ========================= */
+.container1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(151, 233, 233);
+    /* Flex ROW é o valor padrão */
+}
+
+/* ========================= FLEX COLUMN ========================= */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(151, 233, 233);
+}
+
+/* ========================= FLEX COM JUSTIFY-CONTENT ========================= */
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(151, 233, 233);
+    /* PADRÂO */
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container5 {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container6 {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container7 {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container8 {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container9 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container10 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container11 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container12 div {
+    max-width: 350px;
+}
+
+.container12 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(151, 233, 233);
+}
+
+/* Com o justify-content alinhamos os elementos pelo MAIN AXIS */
+.container13 div {
+    max-width: 350px;
+}
+.container13 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(151, 233, 233);
+}
+
+/* ========================= FLEX COM ALIGN-ITENS ========================= */
+/* Com o align-itens alinhamos os elementos pelo CROSS AXIS */
+.container14 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color: rgb(151, 233, 233);
+    align-items: stretch;
+    /* Esse é o padrão */
+}
+.container15 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color: rgb(151, 233, 233);
+    align-items: flex-start;
+    /* Esse é o padrão */
+}
+.container16 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color: rgb(151, 233, 233);
+    align-items: flex-end;
+    /* Esse é o padrão */
+}
+
+.container17 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color: rgb(151, 233, 233);
+    align-items: center;
+    /* Esse é o padrão */
+}
+
+.container18 {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color: rgb(151, 233, 233);
+    align-items: center;
+    /* Esse é o padrão */
+}
